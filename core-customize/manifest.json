@@ -1,50 +1,10 @@
 {
     "commerceSuiteVersion": "1905",
-    "extensions": [],
-    "useConfig": {
-        "properties": [
-            {
-                "location": "/hybris/config/environments/local-dev.properties",
-                "persona": "d1"
-            },
-            {
-                "location": "/hybris/config/environments/local-stage.properties",
-                "persona": "s1"
-            },
-            {
-                "location": "/hybris/config/environments/local-prod.properties",
-                "persona": "p1"
-            },
-            {
-                "location": "/hybris/config/environments/common.properties"
-             },
-             {
-                "aspect": "accstorefront",
-                "location": "/hybris/config/environments/accstorefront.properties"
-             },
-             {
-                "aspect": "api",
-                "location": "/hybris/config/environments/api.properties"
-             },
-             {
-                "aspect": "backoffice",
-                "location": "/hybris/config/environments/backoffice.properties"
-             }
-        ],
-        "extensions": {
-            "location": "/hybris/config/localextensions.xml",
-            "exclude": [
-                "azurecloudhotfolder",
-                "cloudcommons",
-                "cloudhotfolder"
-            ]
-        }
-    },
-    "properties": [
-        {
-            "key": "lang.packs",
-            "value": "de,en"
-        }
+    "extensions": [
+        "modeltacceleratorservices",
+        "electronicsstore",
+        "yacceleratorstorefront",
+        "backoffice"
     ],
          "aspects": [
         {
