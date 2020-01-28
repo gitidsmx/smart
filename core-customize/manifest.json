@@ -5,15 +5,15 @@
         "properties": [
             {
                 "location": "/hybris/config/environments/local-dev.properties",
-                "persona": "development"
+                "persona": "d1"
             },
             {
                 "location": "/hybris/config/environments/local-stage.properties",
-                "persona": "staging"
+                "persona": "s1"
             },
             {
                 "location": "/hybris/config/environments/local-prod.properties",
-                "persona": "production"
+                "persona": "p1"
             },
             {
                 "location": "/hybris/config/environments/common.properties"
