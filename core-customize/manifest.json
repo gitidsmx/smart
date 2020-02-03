@@ -4,14 +4,12 @@
       "ordermanagementaddon",
       "orderselfserviceaddon",
       "ordermanagementwebservices",
-      "b2bordermanagementwebservices",
       "warehousing",
       "warehousingbackoffice",
       "warehousingwebservices",
       "adaptivesearchsolr",
       "adaptivesearchbackoffice",
       "adaptivesearchsamplesaddon",
-      "b2bcommercebackoffice",
       "commerceservicesbackoffice",
       "yacceleratorcockpits",
       "yacceleratorinitialdata",
@@ -26,7 +24,6 @@
       "cmsfacades",
       "solrserver",
       "acceleratorwebservicesaddon",
-      "b2bacceleratoraddon",
       "commerceorgaddon",
       "commerceorgsamplesaddon",
       "assistedservicestorefront",
@@ -90,13 +87,11 @@
       "personalizationsearchsamplesaddon",
       "personalizationyprofilesampledataaddon",
       "personalizationaddon",
-      "xyformsbackoffice", 
-      "xyformsfacades",
-      "xyformsservices",
-      "xyformssamples",
-      "xyformsweb",
-      "xyformsstorefrontcommons",
-      "orbeonweb",
+      "multicountrysampledataaddon",
+      "b2bacceleratoraddon",
+      "b2bacceleratorfacades",
+      "b2bacceleratorservices",
+      "b2boccaddon",
       "mediaweb"
    ],
    "properties":[
@@ -168,19 +163,9 @@
          "template": "yacceleratorstorefront"
       },
       {
-         "addon": "smarteditaddon",
-         "storefront": "lalab2b",
-         "template": "yacceleratorstorefront"
-      },
-      {
          "addon": "personalizationaddon",
          "storefront": "yacceleratorstorefront",
          "template": "yacceleratorstorefront"
-      },
-      {
-        "addon": "personalizationaddon",
-        "storefront": "lalab2b",
-        "template": "yacceleratorstorefront"
       },
      {
          "addon":"b2bacceleratoraddon",
@@ -331,10 +316,7 @@
       {
          "name":"api",
          "properties":[
-                    {
-                     "key":"storefrontContextRoot",
-                     "value":"lalab2b"
-                     },
+
          ],
          "webapps":[
            {
@@ -349,10 +331,6 @@
               "name": "yacceleratorstorefront",
               "contextPath": "/yacceleratorstorefront"
 		   },
-                {
-                 "name": "lalab2b",
-                 "contextPath": "/lalab2b"
-                 },
            {
                "name": "smartedit",
                "contextPath": "/smartedit"
